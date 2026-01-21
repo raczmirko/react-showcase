@@ -1,0 +1,1 @@
+export function EntitiesPage() { return <div>Entities</div> }
