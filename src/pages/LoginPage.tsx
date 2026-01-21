@@ -15,7 +15,15 @@ export function LoginPage() {
   }, [user, navigate])
 
   return (
-    <Box sx={{ minHeight: '100vh', display: 'grid', placeItems: 'center', backgroundImage: "url(https://picsum.photos/1920/1080)"}}>
+    <Box sx={{ 
+      minHeight: '100vh', 
+      display: 'grid', 
+      placeItems: 'center', 
+      backgroundImage: "url(https://picsum.photos/1920/1080)", 
+      backgroundRepeat: 'no-repeat', 
+      backgroundSize: 'cover',
+      backgroundPosition: 'center'
+      }}>
       <Paper sx={{ p: 3, width: 360 }}>
         <Typography variant="h5" sx={{ mb: 2 }}>{t('auth.login')}</Typography>
         <TextField
