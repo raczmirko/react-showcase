@@ -1,13 +1,14 @@
 {
   "nav": {
-    "dashboard": "Dashboard",
-    "users": "Users",
-    "entities": "Entities",
-    "settings": "Settings"
+    "dashboard": "Tableaux de bord",
+    "users": "Utilisateurs",
+    "entities": "Entités",
+    "settings": "Paramètres",
+    "theme": "Thème"
   },
   "auth": {
-    "login": "Login",
-    "logout": "Logout",
-    "accessDenied": "Access denied"
+    "login": "Se connecter",
+    "logout": "Se déconnecter",
+    "accessDenied": "Accès refusé"
   }
 }

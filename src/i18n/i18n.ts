@@ -11,7 +11,7 @@ i18n.use(initReactI18next).init({
   resources: {
     en: { common: en },
     hu: { common: hu },
-    de: { common: fr },
+    fr: { common: fr },
   },
   lng: localStorage.getItem(STORAGE_KEY) ?? 'en',
   fallbackLng: 'en',

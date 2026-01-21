@@ -3,7 +3,8 @@
     "dashboard": "Dashboard",
     "users": "Users",
     "entities": "Entities",
-    "settings": "Settings"
+    "settings": "Settings",
+    "theme": "Theme"
   },
   "auth": {
     "login": "Login",

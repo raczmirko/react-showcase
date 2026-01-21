@@ -69,10 +69,10 @@ export function AppLayout() {
             React Showcase
           </Typography>
 
-          <Button color="inherit" onClick={toggle}>Theme</Button>
+          <Button color="inherit" onClick={toggle}>{t('nav.theme')}</Button>
           <Button color="inherit" onClick={() => i18n.changeLanguage('en')}>EN</Button>
           <Button color="inherit" onClick={() => i18n.changeLanguage('hu')}>HU</Button>
-          <Button color="inherit" onClick={() => i18n.changeLanguage('de')}>DE</Button>
+          <Button color="inherit" onClick={() => i18n.changeLanguage('fr')}>FR</Button>
 
           <Typography sx={{ mx: 2 }}>{user?.name} ({user?.role})</Typography>
           <Button color="inherit" onClick={logout}>{t('auth.logout')}</Button>

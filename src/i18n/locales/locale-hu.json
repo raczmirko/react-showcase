@@ -1,13 +1,14 @@
 {
   "nav": {
-    "dashboard": "Dashboard",
-    "users": "Users",
-    "entities": "Entities",
-    "settings": "Settings"
+    "dashboard": "Kimutatások",
+    "users": "Felhasználók",
+    "entities": "Entitások",
+    "settings": "Beállítások",
+    "theme": "Téma"
   },
   "auth": {
-    "login": "Login",
-    "logout": "Logout",
-    "accessDenied": "Access denied"
+    "login": "Bejelentkezés",
+    "logout": "Kijelentkezés",
+    "accessDenied": "Hozzáférés megtagadva"
   }
 }
