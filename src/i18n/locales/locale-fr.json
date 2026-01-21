@@ -1,0 +1,13 @@
+{
+  "nav": {
+    "dashboard": "Dashboard",
+    "users": "Users",
+    "entities": "Entities",
+    "settings": "Settings"
+  },
+  "auth": {
+    "login": "Login",
+    "logout": "Logout",
+    "accessDenied": "Access denied"
+  }
+}
